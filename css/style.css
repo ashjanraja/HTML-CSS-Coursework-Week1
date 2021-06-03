@@ -6,3 +6,128 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ 
+ *{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
+    font-weight: normal;
+    font-family: cursive;
+}
+section{
+    min-height: 100vh;
+    padding:0 7%;
+    padding-top: 9rem;
+}
+
+header{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 7%;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+}
+
+header .logo img{
+    height:4rem;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    color:#aaa;
+    margin-left: 1.5rem;
+}
+
+header .navbar a:hover{
+    color:#6e8a3c;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:url(../images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    padding-left: 100px;
+    
+}
+
+.home .content h3{
+    font-size: 36px;
+    color:#6e8a3c;
+}
+
+.home .content p{
+    font-size: 16px;
+    color:rgb(139, 132, 132);
+    padding:1rem 0;
+}
+.btn{
+    padding:5px;
+    font-size: 1.1rem;
+    background:#666;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background:#444;
+}
+.heading{
+    text-align: center;
+    padding:8px;
+    color: #6e8a3c;
+    font-size: 28px;
+}
+.service .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service .box-container .box{
+    text-align: center;
+    width: 33%;
+    margin: 2rem;
+}
+
+.service .box-container .box h3{
+    font-size: 16px;
+    color:#6e8a3c;
+}
+
+.service .box-container .box p{
+    font-size: 14px;
+    color:#999;
+    padding:8px 0px;
+}
+footer{
+    padding: 20px ;
+    color: #fff;
+    background: #6e8a3c;
+}
+footer p{
+    display: inline-block;
+    width: 48%;
+}
+footer p:first-child{
+    text-align: left;
+}
+footer p:last-child{
+    text-align: right;
+}

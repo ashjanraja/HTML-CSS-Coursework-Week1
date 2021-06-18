@@ -24,6 +24,7 @@ section{
 }
 
 header{
+    height: 70px;
     width:100%;
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ header{
 }
 
 header .logo img{
-    height:4rem;
+    height: 64px;
 }
 
 header .navbar a{
@@ -70,7 +71,7 @@ header .navbar a:hover{
 
 .home .content p{
     font-size: 16px;
-    color:rgb(139, 132, 132);
+    opacity: .5;
     padding:1rem 0;
 }
 .btn{
@@ -85,7 +86,7 @@ header .navbar a:hover{
 }
 
 .btn:hover{
-    background:#444;
+    background:#6e8a3c;
 }
 .heading{
     text-align: center;
@@ -119,7 +120,7 @@ header .navbar a:hover{
 footer{
     padding: 20px ;
     color: #fff;
-    background: #6e8a3c;
+    background: rgb(62, 97, 6);
 }
 footer p{
     display: inline-block;
@@ -130,4 +131,5 @@ footer p:first-child{
 }
 footer p:last-child{
     text-align: right;
+ 
 }
